@@ -1,0 +1,35 @@
+body {
+  background-color: #3a0996;
+  background-image: linear-gradient(to bottom, #190542, #3a0996);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+  text-align: center;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+#title{
+  position: relative;
+  bottom: 20px;
+}
+#title-link {
+  text-decoration: none;
+}
+#github-logo {
+  height: 32px;
+  width: 32px;
+}
+#pfp {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  position: relative;
+}
+#footer {
+  position: relative;
+  top: 1000px;
+}
