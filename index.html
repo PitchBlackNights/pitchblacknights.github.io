@@ -8,6 +8,17 @@
     <link rel="apple-touch-icon" href="https://pitchblacknights.github.io/images/favicon.jpg">
     <link rel="icon" href="https://pitchblacknights.github.io/images/favicon.jpg">
     <script src="https://pitchblacknights.github.io/redirect.js"></script>
+    <script>
+      var url = location.href;
+      function checkStatus() {
+        if (working == 1) {
+          if (url == "https://pitchblacknights.github.io/under-construction") {
+          }else{
+            location.href = 'https://pitchblacknights.github.io/under-construction';
+          }
+        }
+      }
+    </script>
   </head>
   <body onload="checkStatus()">
     
