@@ -10,7 +10,11 @@
     <script src="https://pitchblacknights.github.io/redirect.js"></script>
     <script>
       var url = location.href;
+      console.clear();
+      console.log('url = ' + url);
+      console.log('working = ' + working);
       function checkStatus() {
+        console.log('checkStatus() was executed');
         if (working == 1) {
           if (url == "https://pitchblacknights.github.io/under-construction") {
           }else{
@@ -18,9 +22,10 @@
           }
         }
       }
+      checkStatus();
     </script>
   </head>
-  <body onload="checkStatus()">
+  <body>
     
     <!-- Header -->
     <a href="https://github.com/PitchBlackNights/"><img src="https://pitchblacknights.github.io/images/pfp.jpg" id="pfp" alt="Profile Picture"></a>
