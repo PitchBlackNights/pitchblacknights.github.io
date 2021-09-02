@@ -1,1 +1,1 @@
-var working = 1;
+var working = 0;
