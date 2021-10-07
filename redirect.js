@@ -1,4 +1,4 @@
-var working = 1;
+var working = 0;
 
 var url = location.href;
 console.clear();
