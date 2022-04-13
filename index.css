@@ -32,9 +32,21 @@ body {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  border-radius: 20px;
   height: 24px;
   width: 24px;
+}
+#pfp:hover {
+  color: black;
+  background-color: #ddd;
+}
+.topBar .select{
+  float: left;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 .topBar .nav {
   float: left;
