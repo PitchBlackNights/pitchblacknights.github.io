@@ -1,86 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>PitchBlackNights</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A profile page for PitchBlackNights">
-    <link rel="apple-touch-icon" href="https://pitchblacknights.github.io/images/favicon.jpg">
-    <link rel="icon" href="https://pitchblacknights.github.io/images/favicon.jpg">
-    <link rel="stylesheet" src="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <style>
-      body {
-        background-color: #3a0996;
-        background-image: linear-gradient(to bottom, #190542, #3a0996);
-        background-size: cover;
-        background-repeat: no-repeat;
-        text-align: center;
-      }
-      a {
-       color: black;
-       font-family: "Brush Script MT", "Lucida Handwriting", cursive;
-      }
-      a:visited {
-        color: black;
-      }
-      #title{
-        position: relative;
-        bottom: 20px;
-      }
-      #title-link {
-        text-decoration: none;
-      }
-      #eee-server-button {
-        background-color: #000000;
-        border: none;
-        border-radius: 8px;
-        height: 30px;
-        width: 120px;
-        transition-duration: 0.4s;
-        border: 2px solid #000000;
-      }
-      #eee-server-button:hover {
-        background-color: #ffffff00;
-        color: black;
-      }
-      #eee-server-link {
-        text-decoration: none;
-        font-size: 11px;
-        color: #969696
-      }
-      #eee-server-link:visited {
-        color: #969696;
-      }
-      #github-logo {
-        height: 32px;
-        width: 32px;
-      }
-      #pfp {
-        width: 60px;
-        height: 60px;
-        border-radius: 4px;
-        position: relative;
-      }
-      #footer {
-        position: relative;
-        top: 600px;
-      }
-    </style>
-  </head>
-  <body>
-    
-    <!-- Header -->
-    <a href="https://github.com/PitchBlackNights/"><img src="https://pitchblacknights.github.io/images/pfp.webp" id="pfp" alt="Profile Picture"></a>
-    <h1 id="title"><a href="https://github.com/PitchBlackNights/" id="title-link">PitchBlackNights</a></h1>
-    
-    <!-- Body -->
-    <button id="eee-server-button"><a href="eserver/" id="eee-server-link">EEE Server</a></button>
-    
-    <!-- Footer -->
-    <div id="footer">
-     <p>This website was was made with <a href="https://codepen.io/">Codepen.io</a></p>
-     <p id="hosted-by">This website is hosted by <a href="https://github.io/">GitHub Pages</a></p>
-     <a href="https://github.com/PitchBlackNights/pitchblacknights.github.io/"><img src="https://pitchblacknights.github.io/images/GitHub-Mark-64px.png" id="github-logo" alt="github repo"></a>
-    </div>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="PitchBlackNights">
+  <meta name="description" content="My github profile page">
+  <title>PitchBlackNights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" sizes="129x128">
+  <link rel="apple-touch-icon" type="image/x-icon" href="/images/favicon.ico" sizes="129x128">
+  <!--    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="topBar">
+    <a><img src="/images/pfp.webp" id="pfp"></a>
+    <a class="nav">Home</a>
+    <a class="nav">About Me</a>
+    <a class="nav">My Accounts</a>
+  </div>
+</body>
+
 </html>
