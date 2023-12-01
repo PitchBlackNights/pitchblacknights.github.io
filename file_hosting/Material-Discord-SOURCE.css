@@ -367,24 +367,24 @@ body,
 }
 .typeWindows__5fa63 .winButton__88672.winButtonMinMax__72f36:nth-last-of-type(2):before {
   background-color: var(--window-button-max);
-/*   -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_maximize.svg);
-  -webkit-mask-repeat: no-repeat; */
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_maximize.svg);
+  -webkit-mask-repeat: no-repeat;
 }
 .typeWindows__5fa63 .winButton__88672.winButtonMinMax__72f36:nth-last-of-type(1):hover:after {
   background-color: var(--window-button-min);
 }
 .typeWindows__5fa63 .winButton__88672.winButtonMinMax__72f36:nth-last-of-type(1):before {
   background-color: var(--window-button-min);
-/*   -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_minimize.svg);
-  -webkit-mask-repeat: no-repeat; */
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_minimize.svg);
+  -webkit-mask-repeat: no-repeat;
 }
 .typeWindows__5fa63 .winButton__88672.winButtonClose__73489:hover:after {
   background-color: var(--window-button-close);
 }
 .typeWindows__5fa63 .winButton__88672.winButtonClose__73489:before {
   background-color: var(--window-button-close);
-/*   -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_close.svg);
-  -webkit-mask-repeat: no-repeat; */
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_close.svg);
+  -webkit-mask-repeat: no-repeat;
 }
 .typeWindows__5fa63 .winButton__88672 svg {
   display: none;
