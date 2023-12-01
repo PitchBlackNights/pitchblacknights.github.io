@@ -386,6 +386,9 @@ body,
   -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/window_close.svg);
   -webkit-mask-repeat: no-repeat;
 }
+.typeWindows__5fa63 .winButton__88672:hover, .typeWindows__5fa63 .winButton__88672:active {
+  background-color: transparent;
+}
 .typeWindows__5fa63 .winButton__88672 svg {
   display: none;
 }
